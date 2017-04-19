@@ -1,0 +1,7 @@
+config("cereal_config") {
+  include_dirs = [ "include" ]
+}
+
+group("cereal") {
+  public_configs = [ ":cereal_config" ]
+}
